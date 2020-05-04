@@ -1,6 +1,8 @@
 package auto.framework.utils
 
-class Constants
+import geb.Configuration
 
-    static final BASE_URL = config
+class Constants {
+
+//    static final BASE_URL = Configuration.get
 }
