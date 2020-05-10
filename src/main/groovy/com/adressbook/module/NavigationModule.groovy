@@ -1,6 +1,6 @@
 package com.adressbook.module
 
-import auto.framework.BaseModule
+import com.adressbook.core.BaseModule
 import com.adressbook.pages.SignInPage
 
 class NavigationModule extends BaseModule {

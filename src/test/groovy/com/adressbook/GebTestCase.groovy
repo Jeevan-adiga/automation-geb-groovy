@@ -1,6 +1,6 @@
 package com.adressbook
 
-import auto.framework.BaseSpec
+import com.adressbook.core.BaseSpec
 import com.adressbook.pages.HomePage
 import com.adressbook.pages.SignInPage
 

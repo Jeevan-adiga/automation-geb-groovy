@@ -1,6 +1,6 @@
 package com.adressbook.pages
 
-import auto.framework.BasePage
+import com.adressbook.core.BasePage
 
 class SignUpPage extends BasePage {
 

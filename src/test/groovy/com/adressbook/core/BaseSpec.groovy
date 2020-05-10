@@ -1,4 +1,4 @@
-package auto.framework
+package com.adressbook.core
 
 import geb.spock.GebSpec
 

@@ -1,7 +1,6 @@
 package com.adressbook.pages
 
-import auto.framework.BasePage
-import com.adressbook.module.AddressRowModule
+import com.adressbook.core.BasePage
 import geb.module.RadioButtons
 import geb.module.Select
 

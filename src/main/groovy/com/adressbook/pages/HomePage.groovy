@@ -1,6 +1,6 @@
 package com.adressbook.pages
 
-import auto.framework.BasePage
+import com.adressbook.core.BasePage
 import com.adressbook.module.NavigationModule
 
 class HomePage extends BasePage {
