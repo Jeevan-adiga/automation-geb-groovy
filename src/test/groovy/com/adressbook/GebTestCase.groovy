@@ -1,13 +1,18 @@
 package com.adressbook
 
 import auto.framework.BaseSpec
+import com.adressbook.pages.HomePage
+import com.adressbook.pages.SignInPage
 
 class GebTestCase extends BaseSpec {
 
     def 'testcase'() {
         given:
-            go("http://www.google.com")
+            go("http://a.testaddressbook.com/")
         expect:
-            title == 'Google'
+            HomePage homePage = at HomePage
+            SignInPage signInPage = homePage.navigationbar.clickOnSignIn()
+            signInPage.signIn("test@ahem.email", "test")
+
     }
 }

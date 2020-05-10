@@ -5,8 +5,10 @@ import com.adressbook.module.NavigationModule
 
 class HomePage extends BasePage {
 
+    String HEADER_TEXT = "Welcome to Address Book"
+
     static at = {
-        waitFor { welcomeText.text() == "Welcome to Address Book\n" }
+        waitFor { welcomeText.text() == HEADER_TEXT }
     }
 
     static content = {
@@ -14,5 +16,4 @@ class HomePage extends BasePage {
         descriptionText { $("h4") }
         navigationbar { $("#navbar").module(NavigationModule) }
     }
-
 }

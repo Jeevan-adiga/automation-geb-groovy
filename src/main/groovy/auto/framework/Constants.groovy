@@ -1,4 +1,4 @@
-package auto.framework.utils
+package auto.framework
 
 import geb.Configuration
 
