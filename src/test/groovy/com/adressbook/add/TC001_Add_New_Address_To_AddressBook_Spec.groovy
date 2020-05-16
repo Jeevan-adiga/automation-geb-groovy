@@ -1,4 +1,4 @@
-package com.adressbook
+package com.adressbook.add
 
 import com.adressbook.core.BaseSpec
 import com.adressbook.pages.AddressDetailsPage
@@ -9,11 +9,11 @@ import com.adressbook.pages.SignInPage
 import com.adressbook.pojo.AddressModel
 import spock.lang.Shared
 
-class GebTestCase extends BaseSpec {
+class TC001_Add_New_Address_To_AddressBook_Spec extends BaseSpec {
 
     @Shared AddressModel addressModel = new AddressModel()
 
-    def "Add New Address"() {
+    def "Adds a New Address to addressbook"() {
         given: "User is at home page"
             go("http://a.testaddressbook.com/")
             HomePage homePage = at HomePage
