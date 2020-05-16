@@ -1,4 +1,3 @@
-import com.google.common.util.concurrent.Futures
 import io.github.bonigarcia.wdm.WebDriverManager
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.remote.DesiredCapabilities

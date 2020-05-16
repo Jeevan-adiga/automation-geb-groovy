@@ -2,12 +2,10 @@ package com.adressbook.pages
 
 import com.adressbook.core.BasePage
 import com.adressbook.helpers.AddressDetailsHelper
-import geb.module.RadioButtons
-import geb.module.Select
 
 class AddressDetailsPage extends BasePage implements AddressDetailsHelper {
 
-    String SUCCESS_MSG = "Address was successfully created."
+    static final String SUCCESS_MSG = "Address was successfully created."
 
     static at = {
         waitFor { firstNameLabel.displayed }

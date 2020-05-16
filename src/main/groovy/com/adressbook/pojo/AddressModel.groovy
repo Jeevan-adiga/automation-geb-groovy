@@ -1,7 +1,6 @@
-package com.adressbook.pojo;
+package com.adressbook.pojo
 
-import com.github.javafaker.Faker;
-import org.apache.commons.lang3.RandomUtils;
+import com.github.javafaker.Faker
 
 /**
  * this class represent Address
