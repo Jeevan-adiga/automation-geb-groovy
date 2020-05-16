@@ -1,10 +1,11 @@
 package com.adressbook.pages
 
 import com.adressbook.core.BasePage
+import com.adressbook.helpers.NewAddressHelper
 import geb.module.RadioButtons
 import geb.module.Select
 
-class NewAddressPage extends BasePage {
+class NewAddressPage extends BasePage implements NewAddressHelper {
 
     static at = {
         waitFor { header.text() == "New Address" }

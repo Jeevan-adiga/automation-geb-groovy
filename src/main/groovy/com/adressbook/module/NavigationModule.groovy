@@ -1,6 +1,7 @@
 package com.adressbook.module
 
 import com.adressbook.core.BaseModule
+import com.adressbook.pages.AddressListPage
 import com.adressbook.pages.SignInPage
 
 class NavigationModule extends BaseModule {
@@ -16,5 +17,10 @@ class NavigationModule extends BaseModule {
     SignInPage clickOnSignIn() {
         signInLink.click(SignInPage)
         browser.at SignInPage
+    }
+
+    AddressListPage clickOnAddresses() {
+        addressesLink.click(AddressListPage)
+        browser.at AddressListPage
     }
 }
